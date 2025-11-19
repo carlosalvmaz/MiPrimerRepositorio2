@@ -1,3 +1,4 @@
+import java.util.stream.Gatherer;
 
 //Los operadores son operaciones que obtienen un valor determinado
 //Aritmeticos: Permiten realizar una operacion matematica
@@ -110,9 +111,47 @@ public void evaluarCandidato(double sueldo, int edad, boolean conducir) {
         boolean resultado = sueldo<20000 && edad<40 && !conducir;
         System.out.println("El candidato valido es: "+resultado);
 }
+public void cambioTipos(){
+        int numeroEntero = 7;
+double numeroDecimal = 5.98;
+    Double numeroDouble = 5.98;
+System.out.println("La decimal es: " + numeroDecimal);
+//si escribimos (int) antes del numero le hacemos un cast
+    //System.out.println("La decimal es: " + (int)numeroDecimal);
+    //System.out .println((double)numeroEntero);
+    //String palabra = "hola";
+    //int numeroPalabra = Integer.valueOf(palabra); //intento pasar palabra a int pero no se puede
+    //System.out.println("La palabra es: " + numeroPalabra);
+    //pero si el string es 12 si que lo cambia
+ String palabraBool = "si";
+ boolean palabraBooleanBoolean = Boolean.parseBoolean(palabraBool);
+ System.out.println(palabraBooleanBoolean);
+ String palabraBoolTrue = "true";
+ boolean palabraBooleanTrue = Boolean.parseBoolean(palabraBoolTrue);
+ System.out.println(palabraBooleanTrue);
+    //solo va a devolvwer true si la palabra es true, si no, devuelve false
+//pasar cuelquier cosa a string
+    int numeroEvaluar = 12345;
+    String numeroEvaluarStr = String.valueOf(numeroEvaluar);
+    System.out.println(numeroEvaluarStr);
+
+
+    boolean acierto = true;
+    String aciertoStr = String.valueOf(acierto);
+    //el parseo se usa para todos menos cuando el origen sea string y el destino sea otro que se usara value.of
+}
 /*
 Cambios de tipos
-int->double doubkle->int 
+CAST
+
+int->double double->int
+float-> int
+(tipo_destino)nombreVariable
+
+PARSING
+cambios que no entran de forma natural dentro del tipo destino
+string -> int . "hola" no se puede "12" se puede pasar a int
+string -> boolean solo se puede cuando lo que esta dentro del string sea true o false
  */
 }
 
