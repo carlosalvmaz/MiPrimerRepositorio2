@@ -105,8 +105,14 @@ System.out.println("El resultado es: " + resultado);
         //Si lo ponemos entre parentesis el resultado puede cambiar
     }
 
-public void evaluarCandidato(int sueldo, int edad, boolean conducir) {
-        boolean resultado = sueldo<=20000 && edad<40 && conducir;
-        System.out.println("El candidato valido es: " +resultado);
+public void evaluarCandidato(double sueldo, int edad, boolean conducir) {
+
+        boolean resultado = sueldo<20000 && edad<40 && !conducir;
+        System.out.println("El candidato valido es: "+resultado);
 }
+/*
+Cambios de tipos
+int->double doubkle->int 
+ */
 }
+
