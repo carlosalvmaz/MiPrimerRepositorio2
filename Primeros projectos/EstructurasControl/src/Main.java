@@ -3,5 +3,7 @@ public class Main {
         SentenciaIF sentenciaIF = new SentenciaIF();
         //sentenciaIF.examenAprobado(9);
         sentenciaIF.notaExamne(100);
+        SentenciaSwitch sentenciaSwitch = new SentenciaSwitch();
+        sentenciaSwitch.menuOpciones();
     }
 }

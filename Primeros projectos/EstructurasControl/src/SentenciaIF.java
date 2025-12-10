@@ -37,4 +37,8 @@ public class SentenciaIF {
             System.out.println("El numero no entra en el rango");
         }
     }
+    //Switch ->  dependiendo de lo qye haga un valor detyerminado vamos a ejecutar una cosa u otra (case). Los valeros pueden tomar como tipo:
+
+
+
 }
