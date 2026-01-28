@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
 SentenciaIF sentenciaIF = new SentenciaIF();
-sentenciaIF.examenAprobado(7);
+sentenciaIF.examenAprobado(8);
     }
 }
