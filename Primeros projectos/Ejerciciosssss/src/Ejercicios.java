@@ -89,4 +89,22 @@ int factorial = 1;
     }
     System.out.println(factorial);
 }
+public void recorreColeccion(){
+    //coleccion de datos es un conjunto de valores guardados en una variable
+    //Esto recibe uel nmombre de array donde puedo guardar varias cosas
+        int[] numeros = {1,10,90,40};
+        System.out.println(numeros);
+        //UN ARMARIO DE n posiciones 1,10,90,40
+    for(int i = 0; i < numeros.length; i++){
+        System.out.println(numeros[i]);
+    }
+//Hay otra manera de escribir un for que es un for each
+    // el i es la posicion y el item es el valor que hay en la posicion
+    //el item recorre todas las posiciioones
+    for (int item: numeros){
+        System.out.println(item);
+    }
+}
+
+
 }

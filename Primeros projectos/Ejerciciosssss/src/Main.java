@@ -4,7 +4,8 @@ Ejercicios ejercicios = new Ejercicios();
 //ejercicios.Contrasena();
         //ejercicios.EjercicioT310();
         //ejercicios.palabraPalindromo();
-        ejercicios.calcularFactorial();
+       // ejercicios.calcularFactorial();
+        ejercicios.recorreColeccion();
     }
 
 }
